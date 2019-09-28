@@ -1,0 +1,19 @@
+{
+  "name": "wdio5-cucumber-automation",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olesiaMartushkanova/wdio5-cucumber-automation.git"
+  },
+  "author": "olesia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olesiaMartushkanova/wdio5-cucumber-automation/issues"
+  },
+  "homepage": "https://github.com/olesiaMartushkanova/wdio5-cucumber-automation#readme"
+}
