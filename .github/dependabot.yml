@@ -15,15 +15,14 @@ updates:
     reviewers:
       - 'olesiaMartushkanova'
     commit-message:
-      include: "scope"
-      prefix: "npm"
-      "It's critical to keep your package dependencies up to date!"
-    
+      include: 'scope'
+      prefix: 'npm'
+
     # What dependecies I want to check
     ignore:
       - dependency-name: 'webdriverio'
     allow:
       - dependency-name: 'chromedriver'
     labels:
-      - "dependencies"
-      - "devDependencies"
+      - 'dependencies'
+      - 'devDependencies'
