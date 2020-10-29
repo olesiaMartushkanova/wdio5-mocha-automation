@@ -1,8 +1,29 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "17:00"
-  open-pull-requests-limit: 10
+  # Required configurations
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+      time: '17:00'
+    open-pull-requests-limit: 20
+
+    # Default configurations
+    # Configs related to the actual PR
+    assignees:
+      - 'olesiaMartushkanova'
+    reviewers:
+      - 'olesiaMartushkanova'
+    commit-message:
+      include: "scope"
+      prefix: "npm"
+      "It's critical to keep your package dependencies up to date!"
+    
+    # What dependecies I want to check
+    ignore:
+      - dependency-name: 'webdriverio'
+    allow:
+      - dependency-name: 'chromedriver'
+    labels:
+      - "dependencies"
+      - "devDependencies"
