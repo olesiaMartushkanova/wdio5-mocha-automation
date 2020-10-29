@@ -18,7 +18,7 @@
   "homepage": "https://github.com/olesiaMartushkanova/wdio5-cucumber-automation#readme",
   "devDependencies": {
     "@wdio/cli": "^5.13.2",
-    "@wdio/local-runner": "^5.13.2",
+    "@wdio/local-runner": "^6.0.3",
     "@wdio/mocha-framework": "^5.13.2",
     "@wdio/spec-reporter": "^5.13.2",
     "@wdio/sync": "^5.13.2",
