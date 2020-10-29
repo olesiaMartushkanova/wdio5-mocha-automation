@@ -26,6 +26,6 @@
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
-    "webdriverio": "^5.12.2"
+    "webdriverio": "^5.23.0"
   }
 }
