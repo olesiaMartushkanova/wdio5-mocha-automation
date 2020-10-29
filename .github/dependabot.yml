@@ -4,9 +4,12 @@ updates:
   - package-ecosystem: npm
     directory: '/'
     schedule:
-      interval: daily
-      time: '17:00'
-    open-pull-requests-limit: 20
+      interval: 'weekly'
+      day: 'friday'
+      time: '12:05'
+      # Using my timezone
+      timezone: 'NZ'
+    open-pull-requests-limit: 10
 
     # Default configurations
     # Configs related to the actual PR
