@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: 'weekly'
       day: 'friday'
-      time: '12:05'
+      time: '12:20'
       # Using my timezone
       timezone: 'NZ'
     open-pull-requests-limit: 10
@@ -17,14 +17,3 @@ updates:
       - 'olesiaMartushkanova'
     reviewers:
       - 'olesiaMartushkanova'
-    commit-message:
-      include: 'scope'
-      prefix: 'npm'
-
-    # What dependecies I want to check
-    ignore:
-      - dependency-name: 'webdriverio'
-    allow:
-      - dependency-name: 'chromedriver'
-    labels:
-      - 'dependencies'
