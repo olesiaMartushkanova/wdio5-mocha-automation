@@ -12,7 +12,7 @@ updates:
         'NZ'
         # Allow to look only after one package
     allow:
-      - dependency-name: 'wdio5-cucumber-automation'
+      - dependency-name: 'cucumber-html-reporter'
     open-pull-requests-limit: 10
     # Default configurations
     # Configs related to the actual PR
