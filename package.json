@@ -1,11 +1,10 @@
 {
   "name": "wdio5-cucumber-automation",
-  "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "src/sum.js",
   "scripts": {
     "test:unit": "jest",
-    "test:e2e": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
