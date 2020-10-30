@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604032117042" clover="3.2.0">
-  <project timestamp="1604032117042" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+<coverage generated="1604032471857" clover="3.2.0">
+  <project timestamp="1604032471857" name="All files">
+    <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="6" coveredelements="3" complexity="0" loc="4" ncloc="4" packages="1" files="2" classes="2"/>
+    <file name="min.js" path="/Users/olesiamartushkanova/Desktop/web-automation-wdio5-mocha/src/min.js">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+    </file>
     <file name="sum.js" path="/Users/olesiamartushkanova/Desktop/web-automation-wdio5-mocha/src/sum.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
