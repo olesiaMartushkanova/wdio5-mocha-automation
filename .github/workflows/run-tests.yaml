@@ -8,14 +8,17 @@ on:
       - master
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install modules
         run: yarn
+
       - name: Run tests
         working-directory: test/unit-tests
         run: yarn test:unit
-      - name: Print success message
-        run: echo "All Unit tests have passed!"
+
+  publish:
+    needs: test
+    run: npm publish
