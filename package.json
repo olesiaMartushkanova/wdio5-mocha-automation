@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "cucumber-html-reporter": "0.3.0",
-    "faker": "^4.0.0",
+    "faker": "^5.1.0",
     "jest": "^26.6.1",
     "wdio5-cucumber-automation": "1.0.1",
     "webdriverio": "^5.23.0"
