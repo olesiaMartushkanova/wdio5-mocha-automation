@@ -1,5 +1,6 @@
 {
   "name": "wdio5-cucumber-automation",
+  "version": "1.0.2",
   "description": "test",
   "main": "src/sum.js",
   "scripts": {

@@ -5,6 +5,6 @@
     "target": "ES6",
     "outDir": "./lib"
   },
-  "exclude": ["node_modules", "test"],
+  "exclude": ["node_modules", "test", ".github"],
   "include": ["src/**/*"]
 }
