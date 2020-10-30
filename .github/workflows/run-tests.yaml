@@ -21,7 +21,6 @@ jobs:
 
   publish:
     needs: test
-    runs-on: ubuntu-latest
     steps:
       - uses: technote-space/workflow-conclusion-action@v1
       - name: Publish to npm
