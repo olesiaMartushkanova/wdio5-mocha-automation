@@ -18,7 +18,6 @@ updates:
     reviewers:
       - 'olesiaMartushkanova'
 
-    # Allow to look only after testing.utils
-    allowed_updates:
-      - match:
-          dependency_name: 'wdio5-cucumber-automation'
+    # Allow to look only after tone package
+    allow:
+      - dependency_name: 'wdio5-cucumber-automation'
