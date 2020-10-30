@@ -8,16 +8,15 @@ updates:
       day: 'friday'
       time: '12:20'
       # Using my timezone
-      timezone: 'NZ'
+      timezone:
+        'NZ'
+        # Allow to look only after one package
+    allow:
+      - dependency-name: 'wdio5-cucumber-automation'
     open-pull-requests-limit: 10
-
     # Default configurations
     # Configs related to the actual PR
     assignees:
       - 'olesiaMartushkanova'
     reviewers:
       - 'olesiaMartushkanova'
-
-    # Allow to look only after tone package
-    allow:
-      - dependency_name: 'wdio5-cucumber-automation'
