@@ -20,8 +20,4 @@ jobs:
         run: yarn test:unit
 
       - name: Check coverage
-        uses: mattallty/jest-github-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        with:
-          test-command: 'yarn jest --coverage'
+        run: yarn test:coverage

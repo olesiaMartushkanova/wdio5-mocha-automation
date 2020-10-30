@@ -5,7 +5,8 @@
   "main": "src/sum.js",
   "scripts": {
     "test:unit": "jest",
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
